@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Simple Todo</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2>
+        <a href="/">Todo application</a>
+      </h2>
+    </header>
+    <div class="todo">
+      {% for todo in todo_list%}
+      <p>{{ todo.title }} by {{ todo.name }}</p>
+
+      {% if todo.complete == False %}
+      <span class="no-completed">Not Completed</span>
+      {% else %}
+      <span class="completed">Completed</span>
+      {% endif %}
+
+      <a class="btn-blue" href="/update/{{todo.id}}">update</a>
+      <a class="btn-red" href="/delete/{{todo.id}}">delete</a>
+      {% endfor %}
+    </div>
+  </body>
+</html>

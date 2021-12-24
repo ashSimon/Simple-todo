@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 750px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee;
+}
+
+.container p {
+  background-color: #000;
+  color: #fff;
+  margin: 10px auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+div form label {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+div form input {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+}
+
+div form button {
+  padding: 10px 50px;
+  margin-top: 10px;
+  border-color: #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+div form button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.25s;
+}
+
+/* todo */
+.todo {
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.todo p {
+  color: #000;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* buttons for update and delete */
+.todo .btn-blue {
+  padding: 10px 30px;
+  background-color: blue;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+}
+
+.todo .btn-red {
+  padding: 10px 30px;
+  background-color: #d50032;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header a {
+  color: #000;
+  text-decoration: none;
+}
+
+.no-completed {
+  color: #999;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.completed {
+  padding: 5px 10px;
+  background-color: #7cfc00;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+}

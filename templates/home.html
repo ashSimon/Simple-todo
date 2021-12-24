@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>Simple todo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Todo Application</h2>
+      <div>
+        <form action="/add" method="POST">
+          <label for="title">Todo Title</label>
+          <input type="text" name="title" placeholder="Enter Todo..." />
+          <br />
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter Name..." />
+          <br />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

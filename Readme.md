@@ -20,10 +20,9 @@ or on Windows
 venv\Scripts\activate
 ```
 
-Install Flask
+Install Dependencies
 ```console
-$ pip install Flask
-$ pip install Flask-SQLAlchemy
+$ pip install -r requirement.txt
 ```
 
 Set environment variables in terminal
